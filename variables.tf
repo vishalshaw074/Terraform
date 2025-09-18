@@ -12,11 +12,10 @@ variable "ami_id" {
 variable "instance_type" {
   description = "EC2 instance type. Default is t2.micro (free tier eligible)."
   type        = string
-  default     = "t3.micro"
 }
 
 variable "instance_name" {
   description = "Name tag for the EC2 instance."
   type        = string
-  default     = "FreeTierEC2"
 }
+
